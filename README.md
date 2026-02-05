@@ -27,7 +27,7 @@ This website showcases different recipes with a clean and user-friendly interfac
 ---
 
 ## 🌐 Live Website
-(Add your GitHub Pages live link here)
+https://virag23.github.io/TasteIt/
 
 ---
 
