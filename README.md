@@ -22,7 +22,7 @@ This website showcases different recipes with a clean and user-friendly interfac
 ---
 
 ## 🎥 Project Demo Video
-[(Add your demo video link here)](https://drive.google.com/file/d/17cYhRTLqBVWQMY8Sb3GjOprk-2J0-tF1/view?usp=sharing)
+[(TasteIt - Demo)](https://drive.google.com/file/d/17cYhRTLqBVWQMY8Sb3GjOprk-2J0-tF1/view?usp=sharing)
 
 ---
 
@@ -38,4 +38,4 @@ This website showcases different recipes with a clean and user-friendly interfac
 ---
 
 ## 👨‍💻 Developer
-Virag
+Virag Sanjay Nandgaonkar
