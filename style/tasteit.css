@@ -1,0 +1,244 @@
+/* Navbar */
+.logo-text {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #1b4332;
+  letter-spacing: -1px;
+}
+
+.logo-text:hover{
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.text-green:hover{
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.text-green { color: #52b788; }
+
+.custom-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2d6a4f !important;
+    margin: 0 10px;
+    position: relative;
+}
+
+.custom-link::after {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #52b788;
+}
+
+.custom-link:hover {
+    font-size: large;
+    font-weight: 800;
+    color: #2fa570;
+    width: 100%;
+}
+
+.btn-veg-action {
+    background: radial-gradient(circle at center, #74c69d 0%, #2d6a4f 100%);
+    color: white !important;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(45, 106, 79, 0.2);
+}
+
+.btn-veg-action:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(45, 106, 79, 0.4);
+}
+
+
+/* Carousel */
+.overlay-image {
+    height: 80vh; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+}
+
+.carousel-caption {
+    bottom: 25%;
+    z-index: 10;
+}
+
+.carousel-item.active h1 {
+    animation: slideInLeft 1s ease-out;
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.btn-veg-action {
+    background: radial-gradient(circle at center, #74c69d 0%, #2d6a4f 100%);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+}
+
+
+/* Table Styling */
+.custom-table {
+    border: 2px solid #2d6a4f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Child Selector (>): Only the first paragraph directly inside the box */
+.benefit > p { font-size: 1.2rem; color: #1b4332; }
+
+/* Adjacent Sibling (+): Style the paragraph immediately following an H3 */
+.benefit h3 + p { margin-top: 0; font-style: italic; color: #5d9e7d; }
+
+/* General Sibling (~): Style all paragraphs that follow an H3 */
+.benefit h3 ~ p { line-height: 1.8; }
+
+
+/* Hero with Linear Gradient Background */
+.recipe-hero {
+    background: linear-gradient(rgba(45, 106, 79, 0.8), rgba(67, 155, 116, 0.8)), 
+                url('../images/tea.png') center/cover;
+    height: 40vh;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+.recipe-content h2 + ul {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/* 3. CHILD SELECTOR (ol > li) */
+.steps-list > li {
+    color: #1b4332;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* 4. GENERAL SIBLING SELECTOR (h3 ~ p) */
+.chef-note h3 ~ p {
+    background-color: #f1f8f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.text-ing { color: #52b788; }
+
+.recipe-hero-0{
+   background: linear-gradient(rgba(45, 106, 79, 0.8), rgba(67, 155, 116, 0.8)), 
+                url('../images/Poha.png') center/cover;
+    height: 40vh; 
+}
+
+.recipe-hero-1 {
+    background: linear-gradient(rgba(45, 106, 79, 0.8), rgba(67, 155, 116, 0.8)), 
+                url('../images/misal_pav.jpg') center/cover;
+    height: 40vh;
+}
+
+.recipe-hero-2 {
+    background: linear-gradient(rgba(45, 106, 79, 0.8), rgba(67, 155, 116, 0.8)), 
+                url('../images/pav_bhaji.jpg') center/cover;
+    height: 40vh;
+}
+
+.recipe-hero-3{
+    background: linear-gradient(rgba(45, 106, 79, 0.8), rgba(67, 155, 116, 0.8)), 
+                url('../images/paneer_butter_masal.png') center/cover;
+    height: 40vh;
+}
+
+
+.recipe-card {
+    overflow: hidden;
+}
+
+.recipe-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(45, 106, 79, 0.2) !important;
+}
+
+.recipe-card img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.recipe-card:hover img {
+    transform: scale(1.1);
+}
+
+.btn-outline-success {
+    border-color: #2d6a4f;
+    color: #2d6a4f;
+}
+
+.btn-outline-success:hover {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+
+/* About with Gradient Background */
+.about-hero {
+    background: linear-gradient(135deg, #1b4332 0%, #3c966e 100%);
+}
+
+.fade-in {
+    animation: fade 1.2s ease-out;
+}
+
+@keyframes fade {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.mission-text h2 + p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #40916c;
+}
+
+.values-list > li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px dashed #d8f3dc;
+    color: #1b4332;
+}
+
+.btn-veg-action {
+    background: radial-gradient(circle at center, #74c69d, #2d6a4f);
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-veg-action:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(45, 106, 79, 0.3);
+}

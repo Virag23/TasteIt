@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste It | Masala Tea Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/tasteit.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar from home screen -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand logo-wrapper" href="../index.html">
+                <span class="logo-text">Taste <span class="text-green">It</span></span> 
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tasteItNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="tasteItNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="../receipes.html">Recipes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="../about.html">About</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-4">
+                        <a class="btn btn-veg-action" href="#">Submit Recipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header fluid make it responsive adjust its size -->
+    <!-- Here I have added image in background and in the same tag i have added the linear gradient to make the image look blurry -->
+    <header class="recipe-hero container-fluid py-5 text-center text-white">
+        <div class="container py-5">
+            <h1 class="display-2 fw-bold">Masala Tea</h1>
+            <p class="lead">The authentic Indian Chai experience.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card border-0 shadow-sm p-3 mb-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wiYA7NC7FXk?si=ME868wCfMTXFH6k3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="d-flex justify-content-around text-center border-top pt-3">
+                        <div><strong>Prep:</strong><p>5 mins</p></div>
+                        <div><strong>Cook:</strong><p>10 mins</p></div>
+                        <div><strong>Serves:</strong><p>2 Cups</p></div>
+                    </div>
+                </div>
+
+                <h4 class="text-ing">Nutrition Facts</h4>
+                <table class="table table-sm nutrition-table">
+                    <tr>
+                        <td>Calories</td>
+                        <td style="color: red;">80 kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Sugar</td>
+                        <td style="color: red;">4g</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td style="color: red;">2g</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-7 ps-md-5 recipe-content">
+                <h2 class="text-ing">Ingredients</h2>
+                <ul class="ingredients-list">
+                    <li>2 cups Water</li>
+                    <li>1 cup Milk (Whole or Oat)</li>
+                    <li>2 tsp Black Tea Leaves</li>
+                    <li>3 tsp Sugar</li>
+                    <li>1-inch Ginger (Crushed)</li>
+                    <li>2 Cardamom pods</li>
+                    <li>Sugar to taste</li>
+                </ul>
+
+                <h2 class="text-ing mt-5">Preparation Steps</h2>
+                <ol class="steps-list">
+                    <li>Boil water in a saucepan and add crushed ginger and cardamom.</li>
+                    <li>Add Sugar and let it steam till it gets dissolves</li>
+                    <li>Add tea leaves and let it simmer for 2 minutes until dark.</li>
+                    <li>Pour in the milk and bring to a rolling boil.</li>
+                    <li>Strain into a cup and enjoy your hot Masala Tea!</li>
+                </ol>
+                
+                <div class="chef-note mt-4">
+                    <h3>Chef's Note</h3>
+                    <p>Always use fresh ginger for the best aroma.</p>
+                    <p>Over-boiling tea leaves can make the chai bitter!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
